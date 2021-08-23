@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+body{
+    min-height: 100%;
+}
+.main{
+
+}
+.checkAgeBuyAlcohol{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    height: 20%;
+    /* border: 1px solid; */
+    background-color: rgb(204, 224, 224);
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+}
+.input{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.icon:hover{
+    opacity: 0.6;
+    background-color: rgb(126, 125, 125);
+}
+
+.input input {
+    padding-left: 7px;
+    font-size: 22px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+button.btn-old {
+    width: 36px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
